@@ -39,10 +39,15 @@ endif
 
 
 "=============================Vim-Plugin start ===============================
-call plug#begin('~/.vim/plugged')
-Plug 'colepeters/spacemacs-theme.vim'
-Plug 'terryma/vim-expand-region'
+call plug#begin('~/.vim/plugged') " plugin managemant: vim-plug
+Plug 'colepeters/spacemacs-theme.vim' " theme of spaceemacs
+Plug 'terryma/vim-expand-region' 
 Plug 'tpope/vim-surround'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim' " fzf的一个vim前端, 需要安装fzf才能使用，vim 中的模糊搜索。注意junegunn/fzf.vim 和junegunn/fzf 要一起安装才可以使用
+Plug 'scrooloose/nerdtree' " 树形目录
+Plug 'vim-airline/vim-airline'
+Plug 'xuyuanp/nerdtree-git-plugin' " nerdtree 中显示出文件的修改状态，开箱即用
 call plug#end()
 "=============================Vim-Plugin start ===============================
 
