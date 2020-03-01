@@ -43,8 +43,8 @@ call plug#begin('~/.vim/plugged') " plugin managemant: vim-plug
 Plug 'colepeters/spacemacs-theme.vim' " theme of spaceemacs
 Plug 'terryma/vim-expand-region' 
 Plug 'tpope/vim-surround'
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim' " fzf的一个vim前端, 需要安装fzf才能使用，vim 中的模糊搜索。注意junegunn/fzf.vim 和junegunn/fzf 要一起安装才可以使用
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " The Vim plugin will pick up fzf binary available on the system. The do block is to make sure that you have the latest version of the binary
+Plug 'junegunn/fzf.vim' " 注意 fzf.vim 和 fzf 要一起安装才可以使用，fzf.vim 使得使用方式学习成本更低，fzf 直接使用具有一定的学习成本。习惯 fzf 原生的可以不装 fzf.vim
 Plug 'scrooloose/nerdtree' " 树形目录
 Plug 'vim-airline/vim-airline'
 Plug 'xuyuanp/nerdtree-git-plugin' " nerdtree 中显示出文件的修改状态，开箱即用
