@@ -119,6 +119,9 @@ set gcr=a:block-blinkon0
 "设置鼠标可用
 set mouse=a
 
+" 共享外部剪切板
+set clipboard=unnamed
+
 " 设置编辑时制表符占用空格数
 set tabstop=4
 
