@@ -212,6 +212,14 @@ cnoremap <C-f> <Right>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
 
+
+" C-c C-v to yank and pull
+vnoremap <C-c> "+y
+map <C-v> "+p
+imap <C-v> <ESC>"+pa
+vmap <C-v> d"+p
+
+
 "above add by cyh
 "————————————————— end —————————————————————
 
