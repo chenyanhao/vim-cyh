@@ -219,6 +219,7 @@ map <C-v> "+p
 imap <C-v> <ESC>"+pa
 vmap <C-v> d"+p
 
+nnoremap <C-a> ggvG
 
 "above add by cyh
 "————————————————— end —————————————————————
