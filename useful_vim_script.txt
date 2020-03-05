@@ -34,4 +34,26 @@ if (g:isWindows == 1) && (g:isGUI == 1)
     set guifont=Consolas:h12
 endif
 
+
+
+" -----------------------------------------------------------------------------
+" 如果要做 vimrc 模块化配置，那么以下脚本可能有用
+" -----------------------------------------------------------------------------
+
+" for f in split(fnamemodify(expand('<sfile>:p'), ':h').'/.vim/vimrc-extend/*.vim', '\n')
+    " execute 'source' f
+" endfor
+
+
+" let base_path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+" exec 'source ' . resolve(base_path . '/.vim/vimrc-extend/better-defaults.vim')
+" exec 'source ' . resolve(base_path . '/.vim/vimrc-extend/plug-list.vim')
+" exec 'source ' . resolve(base_path . '/.vim/vimrc-extend/simple-plug.vim')
+" exec 'source ' . resolve(base_path . '/.vim/vimrc-extend/complex-plug.vim')
+
+" for f in split(glob('~/.vim/vimrc-extend/*.vim'), '\n')
+    " execute 'source' f
+" endfor
+
+
 "================================ end =====================================

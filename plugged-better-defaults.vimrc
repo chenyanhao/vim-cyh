@@ -61,6 +61,11 @@ call plug#end()
 " --------- theme --------
 colorscheme spacemacs-theme
 
+" --------- nerdcommenter --------
+" add spaces after comment delimiters
+let g:NERDSpaceDelims = 1
+" use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
 "=============================插件相关 end  ===============================
 
 
