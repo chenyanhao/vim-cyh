@@ -4,5 +4,5 @@
 
 - better-defaults.vimrc：三个平台可以直接拉下来使用，完美兼容。这个配置只更改或者加上了一些基本的默认配置，未配置任何插件。所以有较好的普适性。
 - pluged-better-defaults.vimrc：在 better-defaults.vimrc 的基础上，加上了 vim-plug 插件管理（vim-plug 需提前装好），且配置了能大幅度提高生产效率的基础插件，配置的插件也都是人气很高的基础插件，最重要的是这些插件默认配置即可开箱即用，非常适合直接 copy 下来初始化工作环境。
-- complete-backup.vimrc：最完备的配置，不一定完美兼容多平台，目前没精力维护，有些插件可能比较老了。
+
 
